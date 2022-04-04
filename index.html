@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Elijah Rei Ferreria</title>
+        
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-school"></i>
+                <!--<img src="" alt="shark logo">-->
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"> </span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"> <a href="#services" class="nav__link">About Me</a></li>
+                    <li class="nav__item"> <a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"> <a href="#footer" class="nav__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Intro-->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, My name is <strong>Elijah</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">A student aspiring to be a Web Developer</p>
+            
+            <img src="img/picture_me.png" alt="idk" class="intro__img">
+
+        </section>
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">About Me</h2>
+            
+            <div class="services scroll-container">
+                <div class="service scroll-element js-scroll">
+                    <h3>Education</h3>
+                    <div class="service-contain">
+                    <p>4th year student in FEU-Alabang currently taking Information Technology with specialization in Web and Mobile Application.</p>
+                    </div>
+                </div>
+
+                <div class="service scroll-element js-scroll">
+                    <h3>Software and Hardware Skills</h3>
+                    <div class="service-contain">
+                    <p>HTML | CSS | JS | Python | Figma | Adobe Photoshop</p>
+                    </div>
+                </div>
+         
+                <div class="service scroll-element js-scroll">
+                    <h3>My Resume</h3>
+                    <div class="service-contain">
+                    <p class="underline"><a href="FEU_ALABANG_RESUME_FERRERIA.pdf" target="_blank">Resume</a> </p>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#work" class="btn scroll-element js-scroll">My Work</a>
+
+        </section>
+
+        <!--My Portfolio-->
+        <section class="my-work" id="work">
+            <h2 class="section__title scroll-element js-scroll">Projects</h2>
+            <p class="section__subtitle"></p>
+
+            <div class="portfolio scroll-container">
+                <div class="portfolio__item scroll-element js-scroll">
+                    <img src="img/befit.PNG" alt="" class="portfolio__img"> 
+                    <h3>Project Manager - 2021</h3>
+                    <p>BeFit is a Web and Mobile Application for Fitness and Wellness. Capstone Project in FEU-Alabang.</p>
+                    <a href="https://www.youtube.com/watch?v=9m0mb69S5KA" class="btn">Trailer</a>
+                </div>
+
+                <div class="portfolio__item scroll-element js-scroll">
+                    <img src="img/cdsp.PNG" alt="" class="portfolio__img"> 
+                    <h3>Lead Developer - 2020</h3>
+                    <p>Developed the first website of Colegio De San Pedro using HTML,CSS, and JS.</p>
+                    <a href="#" class="btn">N/A</a>
+                </div>
+
+                <div class="portfolio__item scroll-element js-scroll">
+                    <img src="img/league.PNG" alt="" class="portfolio__img"> 
+                    <h3>Lead Developer - 2019</h3>
+                    <p>My first ever website developed of a game called League of Legends using HTML and CSS.</p>
+                    <a href="https://github.com/Elijah-Rei/league" class="btn">GitHub</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--footer-->
+        <footer class="footer" id="footer">
+            Contacts
+            <ul class="social-list">
+                
+                <li class-social-list__item> 
+                    <a class="social-list__link" href="https://www.facebook.com/er.ferreria/"> 
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                </li>
+                |
+                <li class-social-list__item>
+                    <a class="social-list__link" href="https://www.linkedin.com/in/elijah-rei-ferreria-075017235/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                |
+                <li class-social-list__item> 
+                    <a class="social-list__link" href="https://github.com/Elijah-Rei"> 
+                        <i class="fa-brands fa-github"> </i> 
+                    </a>
+                </li>
+                |
+                <li class-social-list__item>
+                    <a class="social-list__link" href="#">
+                        elijahferreria@gmail.com
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
